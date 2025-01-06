@@ -1,51 +1,56 @@
-/* Body styling */
 body {
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 16px; 
-}
-
-/* Header styling */
-header {
-    background-color: #75c0f1; 
-}
-
-/* Navigation styling */
-nav {
-    background-color: #d3d4da; 
-    font-size: larger;
-}
-
-/* Main section styling */
-main {
-    background-color: #e0e0e0; 
-    font-size: 18px; /* Example font size */ 
-}
-
-/* Footer styling */
-footer {
-    background-color: #7cf19f; 
-}
-
-/* List item styling */
-ul {
-    display: flex;
-    justify-content: space-between; /* Space out the list items */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-}
-
-li {
-    list-style-type: none; /* Remove bullets */
-}
-
-/* Header 1 styling */
-h1 {
-    text-align: center; /* Example text alignment */
-    font-family: 'Times New Roman', serif; /* Example font family */
-    color: #379b09; /* Example text color */
-}
-
-/* Paragraph styling */
-p {
-    line-height: 1.6; /* Example line height */
-}
+    font-family: "Roboto", serif;
+    font-size: 18px;
+  }
+  
+  header {
+    background-color: #afafaf;
+  }
+  
+  nav {
+    background-color: cornflowerblue;
+  }
+  
+  main {
+    background-color: yellow;
+    font-size: 18px;
+  
+  }
+  
+  footer {
+    background-color: #afafaf;
+  }
+  
+  ul {
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-family: "Dancing script", serif;
+    font-size: 44px;
+    color: black;
+  }
+  
+  p {
+    line-height: 25px;
+  }
+  
+  
+  
+  img {
+    width: 10%;
+    height: 10%;
+    display: inline;
+  }
